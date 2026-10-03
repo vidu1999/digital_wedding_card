@@ -14,11 +14,13 @@ Then open `http://localhost:4173` in your browser. In Arena's preview, the app c
 
 ## Free hosting with GitHub Pages
 
-This public repository is configured to publish the invitation with GitHub Pages. The workflow in `.github/workflows/deploy-pages.yml` deploys the static site whenever the invitation files are pushed to `main` or the Arena working branch. After the first successful workflow run, the site is available at:
+The workflow in `.github/workflows/deploy-pages.yml` is ready to publish the static site whenever invitation files are pushed to `main` or the Arena working branch. Pages still needs a one-time source selection in repository settings:
 
-**https://vidu1999.github.io/digital_wedding_card/**
+1. Open [Settings → Pages](https://github.com/vidu1999/digital_wedding_card/settings/pages).
+2. Under **Build and deployment**, set **Source** to **GitHub Actions**.
+3. In **Actions**, re-run the failed “Deploy wedding invitation to GitHub Pages” run (or use **Run workflow**).
 
-You can watch deployment progress under the repository's **Actions** tab. No paid hosting or build service is required.
+After that first successful deployment, the free public site is available at **https://vidu1999.github.io/digital_wedding_card/**. Future pushes deploy automatically.
 
 ## Included interactions
 
