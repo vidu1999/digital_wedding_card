@@ -22,6 +22,14 @@ The workflow in `.github/workflows/deploy-pages.yml` is ready to publish the sta
 
 After that first successful deployment, the free public site is available at **https://vidu1999.github.io/digital_wedding_card/**. Future pushes deploy automatically.
 
+## Marketing reel
+
+- [Download the vertical MP4 promo](assets/wedding-invitation-promo.mp4) — 1080 × 1920, 21 seconds, with an original ambient score.
+- [View the reel poster](assets/wedding-invitation-promo-poster.jpg).
+- Once Pages is enabled, the video is also hosted at `https://vidu1999.github.io/digital_wedding_card/assets/wedding-invitation-promo.mp4`.
+
+To rebuild the reel after changing its scenes, install `scripts/requirements-media.txt` and run `python scripts/build_promo_video.py`.
+
 ## Included interactions
 
 - Live countdown to the ceremony in Sri Lanka Standard Time.
